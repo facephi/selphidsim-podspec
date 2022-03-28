@@ -1,1 +1,2 @@
-# selphidsim-podspec
+# selphid-podspec
+selphid-podspec
