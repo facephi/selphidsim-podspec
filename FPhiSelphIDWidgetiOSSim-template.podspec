@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
     spec.summary      = "A short description of FPhiSelphIDWidgetiOSSim."
   
     spec.summary      = "Component for OCR and liveness test"
-    spec.ios.deployment_target  = "10.0"
+    spec.ios.deployment_target  = "12.0"
   
     spec.description  = <<-DESC
     Safe digital onboarding solution with the best real time OCR in the market with facial liveness test.
