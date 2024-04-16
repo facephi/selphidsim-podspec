@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
     spec.summary      = "A short description of FPhiSelphIDWidgetiOSSim."
   
     spec.summary      = "Component for OCR and liveness test"
-    spec.ios.deployment_target  = "12.0"
+    spec.ios.deployment_target  = "13.0"
   
     spec.description  = <<-DESC
     Safe digital onboarding solution with the best real time OCR in the market with facial liveness test.
@@ -40,9 +40,9 @@ Pod::Spec.new do |spec|
     spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
     spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
     
-    spec.dependency "GoogleMLKit/TextRecognition", "4.0.0"
-    spec.dependency "GoogleMLKit/TextRecognitionKorean", "4.0.0"
-    spec.dependency "GoogleMLKit/TextRecognitionJapanese", "4.0.0"
+    spec.dependency "GoogleMLKit/TextRecognition", "5.0.0"
+    spec.dependency "GoogleMLKit/TextRecognitionKorean", "5.0.0"
+    spec.dependency "GoogleMLKit/TextRecognitionJapanese", "5.0.0"
     spec.dependency "FPhiMBWidgetiOS", "5.20.0"
     spec.dependency "zipzap"
   
