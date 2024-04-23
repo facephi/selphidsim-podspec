@@ -28,10 +28,10 @@ Pod::Spec.new do |spec|
     spec.author             = { "Facephi" => "developer@facephi.com" }
     spec.source       = { :git => "https://github.com/facephi/selphidsim-framework.git", :tag => "#{spec.version}" }
   
-    spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386', 'EXCLUDED_ARCHS' => 'armv7' }
-    spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386', 'EXCLUDED_ARCHS' => 'armv7' }
+    spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'EXCLUDED_ARCHS' => 'armv7' }
+    spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'EXCLUDED_ARCHS' => 'armv7' }
     spec.xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386',
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',
       'EXCLUDED_ARCHS' => 'armv7',
       'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '-ObjC -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "FPhiSelphIDWidgetiOS" -framework "Foundation" -framework "ImageIO" -framework "LocalAuthentication" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"'
     
