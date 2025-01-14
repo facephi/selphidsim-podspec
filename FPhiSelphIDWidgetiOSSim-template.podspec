@@ -43,7 +43,7 @@ Pod::Spec.new do |spec|
     spec.dependency "GoogleMLKit/TextRecognition", "6.0.0"
     spec.dependency "GoogleMLKit/TextRecognitionKorean", "6.0.0"
     spec.dependency "GoogleMLKit/TextRecognitionJapanese", "6.0.0"
-    spec.dependency "FPhiMBWidgetiOS", "6.11.0"
+    spec.dependency "FPhiMBWidgetiOS", "6.13.0"
     spec.dependency "zipzap"
   
   end
