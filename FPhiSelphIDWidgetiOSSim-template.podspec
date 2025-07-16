@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
     spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
     spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
     
-    spec.dependency "GoogleMLKit/TextRecognition"
+    spec.dependency 'GoogleMLKit/TextRecognition', '< 9.0.0'
     spec.dependency "GoogleMLKit/TextRecognitionKorean"
     spec.dependency "GoogleMLKit/TextRecognitionJapanese"
     spec.dependency "FPhiMBWidgetiOS", "6.13.0"
